@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    height:100vh;
+    width:100%;
+    overflow-y:hidden;
+    background:url('back2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+h5{
+    font-weight:bold;
+}
+
+
+.whole-body{
+
+    opacity:0.7;
+    width: 400px;
+    height: 600px;
+    background:grey;
+    /* margin:50px auto; */
+    border: 2px solid black;
+    padding:25px;
+    box-shadow: 10px 10px 10px;
+    border:none;
+}
+.cityName{
+    width: 350px;
+    background:lightgrey;
+    height: 100px;
+    margin-bottom:10px;
+    margin-top:-10px;
+
+}
+.weatherResult{
+    width:350px;
+    height: 450px;
+    background: white;
+    text-align:center;
+    padding-top:20px;
+}
+input{
+    margin-top:30px;
+    margin-left:67px;
+    border:none;
+    padding:10px;
+    font-weight:bold;
+    text-align:center;
+}
+p{
+    margin-top:20px;
+    font-weight: bold;
+}
+h1{
+    font-weight: bold;
+}
