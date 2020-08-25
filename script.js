@@ -46,7 +46,28 @@ function showWeather(data){
 
     var conditions =data.weather[0].main;
     if(conditions==="Rain"){
-        document.querySelector('body').style.background=url("rain.jpg");
+        document.querySelector('body').style.background='url("rain.jpg")';
+    }
+    else if(conditions==="Haze"){
+        document.querySelector('body').style.background='url("Haze.jpeg")';
+    }
+    else if(conditions==="Clear"){
+        document.querySelector('body').style.background='url("clear2.jpeg")';
+    }
+    if(conditions==="Clouds"){
+        document.querySelector('body').style.background='url("clouds.jpeg")';
+    }
+    if(conditions==="Snow"){
+        document.querySelector('body').style.background='url("snow.jpg")';
+    }
+    if(conditions==="Thunderstorm"){
+        document.querySelector('body').style.background='url("thunderstorm.jpg")';
+    }
+    if(conditions==="Sunny"){
+        document.querySelector('body').style.background='url("sunny.jpeg")';
+    }
+    if(conditions==="Mist"){
+        document.querySelector('body').style.background='url("mist2.jpg")';
     }
     }
 
