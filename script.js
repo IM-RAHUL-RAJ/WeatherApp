@@ -43,7 +43,12 @@ function showWeather(data){
     document.querySelector('h5').innerHTML=data.weather[0].main;// weather[0].main
     var iconName=data.weather[0].icon;
     document.querySelector('.icons').setAttribute("src","http://openweathermap.org/img/wn/"+iconName+"@2x.png");
-}
+
+    var conditions =data.weather[0].main;
+    if(conditions==="Rain"){
+        document.querySelector('body').style.background=url("rain.jpg");
+    }
+    }
 
   
 
